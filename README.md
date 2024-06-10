@@ -6,9 +6,6 @@ This portfolio will showcase my projects I have done throughout my time at The U
 
 ## [University](https://www.nottingham.ac.uk/)
 
-Ones to show (self note):
-
-
 ## First year
 
 ### [SQL and stuff](https://en.wikipedia.org/wiki/HTTP_404)
@@ -44,6 +41,17 @@ Ones to show (self note):
 ## Third Year
 
 ### [Implementing AES in Galois counter mode in Java](https://en.wikipedia.org/wiki/HTTP_404)
+
+### [Visualising information via the observable javascript framework](https://en.wikipedia.org/wiki/HTTP_404)
+
+
+### [OpenGL programming in C++](https://en.wikipedia.org/wiki/HTTP_404)
+
+### [Making an AI chatbot in Python using only NLTK](https://en.wikipedia.org/wiki/HTTP_404)
+
+### [Creating phone apps in android](https://en.wikipedia.org/wiki/HTTP_404)
+
+
 
 
 ---
