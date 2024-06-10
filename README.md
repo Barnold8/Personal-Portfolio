@@ -30,12 +30,23 @@ Ones to show (self note):
 
 ## Second Year
 
+### [C++ game using SDL2](https://en.wikipedia.org/wiki/HTTP_404)
 
+
+### [Snake game using JavaFX making it maintainable](https://en.wikipedia.org/wiki/HTTP_404)
+
+
+### [Capital one smart receipt analyser app (group work)](https://en.wikipedia.org/wiki/HTTP_404)
+
+### [Operating system process scheduler using POSIX threads](https://en.wikipedia.org/wiki/HTTP_404)
 
 
 ## Third Year
 
+### [Implementing AES in Galois counter mode in Java](https://en.wikipedia.org/wiki/HTTP_404)
 
+
+---
 
 
 ## Own time
