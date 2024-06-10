@@ -23,6 +23,18 @@ Ones to show (self note):
 
 ### [Low level Server programming in C with djikstras](https://en.wikipedia.org/wiki/HTTP_404)
 
+### [Haskell basics](https://en.wikipedia.org/wiki/HTTP_404)
+
+### [Learning Java basics and making reversi in Java](https://en.wikipedia.org/wiki/HTTP_404)
+
+
+## Second Year
+
+
+
+
+## Third Year
+
 
 
 
