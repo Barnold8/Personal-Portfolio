@@ -2,11 +2,25 @@
 
 ## Introduction
 
-This portfolio will showcase my projects I have done throughout my time at The University Of Nottingham. Some modules will be left out due to them being mostly if not ***all*** theoretical. 
+This portfolio will showcase my projects I have done throughout my time at The University Of Nottingham. Some modules will be left out due to them being mostly if not ***all*** theoretical. I will NOT be using the module names and module code numbers for this repo. I am doing this to stop any new students finding answers and/or solutions to problems in content that may still be used within the university. If you are one of these students, turn back now, you ***WILL*** be caught for plaigarism. 
 
 ## [University](https://www.nottingham.ac.uk/)
 
 Ones to show (self note):
+
+
+## First year
+
+### [SQL and stuff](https://en.wikipedia.org/wiki/HTTP_404)
+
+### [SE module from 1st year](https://en.wikipedia.org/wiki/HTTP_404)
+
+### [ARM assembly](https://en.wikipedia.org/wiki/HTTP_404)
+
+### [HDL stuff](https://en.wikipedia.org/wiki/HTTP_404)
+
+### [C programming basics](https://en.wikipedia.org/wiki/HTTP_404)
+
 
 
 
