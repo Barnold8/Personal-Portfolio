@@ -8,7 +8,10 @@ This portfolio will showcase my projects I have done throughout my time at The U
 
 ## First year
 
-### [SQL and stuff](https://en.wikipedia.org/wiki/HTTP_404)
+### [Creating a website that interfaces using PHP and SQL](https://en.wikipedia.org/wiki/HTTP_404)
+
+This module entailed creating a website using PHP and interfacing an SQL database using said PHP. I also sanitised the inputs of the SQL calls on the website frontend using JavaScript. You can see the website in action in [this video](https://www.youtube.com/watch?v=WZ4swjO1exw).
+
 
 ### [SE module from 1st year](https://en.wikipedia.org/wiki/HTTP_404)
 
@@ -59,8 +62,10 @@ This portfolio will showcase my projects I have done throughout my time at The U
 
 ## Own time
 
-## [Pic2SpreadSheet](https://github.com/Barnold8/Pic2SpreadSheet)
 
+## [PadPointMouse](https://github.com/Barnold8/PadPointMouse)
+
+## [Pic2SpreadSheet](https://github.com/Barnold8/Pic2SpreadSheet)
 
 ## [TwitX](https://github.com/Barnold8/TwitX)
 
