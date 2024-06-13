@@ -8,10 +8,10 @@ This portfolio will showcase my projects I have done throughout my time at The U
 
 ## First year
 
-### [Creating a website that interfaces using PHP and SQL](https://en.wikipedia.org/wiki/HTTP_404)
 
-This module entailed creating a website using PHP and interfacing an SQL database using said PHP. I also sanitised the inputs of the SQL calls on the website frontend using JavaScript. You can see the website in action in [this video](https://www.youtube.com/watch?v=WZ4swjO1exw).
+### [PHP and SQL Website Project](https://en.wikipedia.org/wiki/HTTP_404)
 
+This project involves creating a dynamic website using PHP to interface with an SQL database. The website demonstrates the functionality of a mock movie database, showcasing the ability to store and retrieve movie information. To enhance security and prevent SQL injection attacks, JavaScript is used to sanitize inputs on the frontend. For a demonstration of the website, check out [this video](https://www.youtube.com/watch?v=WZ4swjO1exw)..
 
 ### [SE module from 1st year](https://en.wikipedia.org/wiki/HTTP_404)
 
