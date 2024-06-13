@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This portfolio will showcase my projects I have done throughout my time at The University Of Nottingham. Some modules will be left out due to them being mostly if not ***all*** theoretical. I will NOT be using the module names and module code numbers for this repo. I am doing this to stop any new students finding answers and/or solutions to problems in content that may still be used within the university. If you are one of these students, turn back now, you ***WILL*** be caught for plaigarism. 
+This portfolio will showcase my projects I have done throughout my time at The University Of Nottingham. Some modules will be left out due to them being mostly if not ***all*** theoretical. I will NOT be using the module names and module code numbers for this repo. I am doing this to stop any new students finding answers and/or solutions to problems in content that may still be used within the university. If you are one of these students, turn back now, you ***WILL*** be caught for plaigarism. A lot of first year is a hazy memory to me, as I am writing this, it was ***two*** years ago. So a lot of content regarding first year is going to be incomplete and may even be somewhat innacurate since I may mistake a module for another or misrepresent some information as another. But rest assured, the subsequent years are within my full recollection. The first year was ungraded and is more here to show my progression throughout my degree. 
 
 ## [University](https://www.nottingham.ac.uk/)
 
@@ -42,21 +42,41 @@ This project taught me about the fundamentals of Java and OOP programming in gen
 
 ### [C++ game using SDL2](https://en.wikipedia.org/wiki/HTTP_404)
 
+This project was making a game in SDL2 with a predefined library made by my professor. This library handled SDL2 on an abstract basis hiding a lot of the raw functionality of SDL2 in an attempt to make it easier (it made it harder). My game takes heavy inspiration from [The Binding of Isaac](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/). I had to code the collision detection and AI pathing. Collision was as simple as box to box collisions or circle to circle collisions. All of the rendering techniques had to be done by hand bar the basics boilerplate stuff in SDL2 that was abstracted by my professor. A video for this project can be found [here](https://www.youtube.com/watch?v=VMRoGM5__q8) (technical overview) and [here](https://www.youtube.com/watch?v=x6BJbzGrij0) (game trailer).
 
 ### [Snake game using JavaFX and making it maintainable](https://en.wikipedia.org/wiki/HTTP_404)
 
+This module focused on making software maintainable and fixing code that was objectively bad and/or incomplete. The ending result is a game of [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) using Java and the [JavaFX](https://openjfx.io/) GUI framework. The original GUI framework for this was [Swing](https://docs.oracle.com/javase/tutorial/uiswing/) but I ported it over to [JavaFX](https://openjfx.io/). To be transparent, the change between frameworks is because swing is deprecated and cannot be maintained any longer. Anything new could conflict with old libraries of swing and security risks are bound to appear making it silly to keep swing as the framework of choice. 
 
 ### [Capital one smart receipt analyser app (group work)](https://en.wikipedia.org/wiki/HTTP_404)
 
+This module centered on group work and included a singular assignment sourced from Capital One. Our group consisted of seven members, although only four were consistently active throughout the majority of the project. The project involved developing a smart receipt analyzer—a phone application that performs OCR on receipts, sends the extracted information to an API, and uses categorization techniques to accurately categorize items. It then performs statistical analysis on the receipts to help users better manage their budgets. The results of the statistical analysis were presented to users through [information visualization](https://en.wikipedia.org/wiki/Data_and_information_visualization) and interactive components.
+
+We managed this project using sprints and conducted team meetings after every two sprints. Each member had specific roles.
+
+My specific contributions included:
+- Creating a RESTful API in Python using Flask.
+- Developing and maintaining an SQL database.
+- Facilitating interactions between the AI and the database through API calls.
+- Preserving app sessions via session tokens (establishing a many-to-one relationship).
+- Managing user accounts.
+- Handling communications between frontend and backend components via the API.
+- Initially creating the Docker container and subsequently upgrading it to Docker Compose to support multiple containers.
+- Co-maintaining the Docker configuration with a group member to ensure stability and utility, using NGINX as well.
+
+The project achieved a categorization success rate of 85%, utilizing techniques such as [fuzzy matching](), [NLP](), and [Bayes' theorem](). Essentially, we developed an AI that categorizes items with a high success rate, all running on a phone.
+
+At the end of this project we both showcased our application to the University during an Open-Day and also to the members at Capital One in their building in Nottingham. Both parties were delighted with the amount of work achieved and the quality of said work!
+
 ### [Operating system process scheduler using POSIX threads](https://en.wikipedia.org/wiki/HTTP_404)
 
+This module provided an in-depth understanding of operating systems, covering topics such as paging memory, process management, queues, concurrency, disk I/O methodologies, forks, and PIDs. Our project involved simulating a process scheduler in C. The process scheduler was required to queue processes based on priority while simulating I/O operations. This added complexity because I/O operations typically take longer than regular CPU processes. To achieve this, we incorporated process tables, queues, and a disk scheduling algorithm. 
 
 ## Third Year
 
-### [Implementing AES in Galois counter mode in Java](https://en.wikipedia.org/wiki/HTTP_404)
+### [Implementing AES in Galois counter mode](https://en.wikipedia.org/wiki/HTTP_404)
 
 ### [Visualising information via the observable javascript framework](https://en.wikipedia.org/wiki/HTTP_404)
-
 
 ### [OpenGL programming in C++](https://en.wikipedia.org/wiki/HTTP_404)
 
