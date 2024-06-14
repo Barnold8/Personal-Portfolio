@@ -52,7 +52,7 @@ This module focused on making software maintainable and fixing code that was obj
 
 This module centered on group work and included a singular assignment sourced from Capital One. Our group consisted of seven members, although only four were consistently active throughout the majority of the project. The project involved developing a smart receipt analyzer—a phone application that performs OCR on receipts, sends the extracted information to an API, and uses categorization techniques to accurately categorize items. It then performs statistical analysis on the receipts to help users better manage their budgets. The results of the statistical analysis were presented to users through [information visualization](https://en.wikipedia.org/wiki/Data_and_information_visualization) and interactive components.
 
-We managed this project using sprints and conducted team meetings after every two sprints. Each member had specific roles.
+We managed this project using sprints and conducted team meetings after every two sprints. Every other meeting included the same assigned Capital One employee each time to discuss progress and ask questions in regards to what is expected of the software. Each member had specific roles.
 
 My specific contributions included:
 - Creating a RESTful API in Python using Flask.
@@ -62,7 +62,7 @@ My specific contributions included:
 - Managing user accounts.
 - Handling communications between frontend and backend components via the API.
 - Initially creating the Docker container and subsequently upgrading it to Docker Compose to support multiple containers.
-- Co-maintaining the Docker configuration with a group member to ensure stability and utility, using NGINX as well.
+- Co-maintaining the Docker configuration with a group member to ensure stability and utility. 
 
 The project achieved a categorization success rate of 85%, utilizing techniques such as [fuzzy matching](), [NLP](), and [Bayes' theorem](). Essentially, we developed an AI that categorizes items with a high success rate, all running on a phone.
 
@@ -76,15 +76,78 @@ This module provided an in-depth understanding of operating systems, covering to
 
 ### [Implementing AES in Galois counter mode](https://en.wikipedia.org/wiki/HTTP_404)
 
+This project focused on implementing [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) in [GCM](https://en.wikipedia.org/wiki/Galois/Counter_Mode). I was given a set of code tests (I think they were Junit?) to pass to ensure the correct implementation of AES in GCM.
+
 ### [Visualising information via the observable javascript framework](https://en.wikipedia.org/wiki/HTTP_404)
+
+This project was to take a topic of my choosing and ask questions on said topic. My topic revolved around mental health in England. I ask questions like "How much do finances contribute to depression" and "What parts of England on average are more depressed?". I go over these questions gathering data from various sources, (everything is explained and referenced properly in the coursework), and I then clean the data if needed, ensure its fit for its use and then perform a data visualisation on it to answer the question. I go over how I clean, transform and fit the data for all instances that I use data, which is very often and I also reflect on the results that transpire from the visualisations. 
+
+This project can be seen [here](https://observablehq.com/d/bd50049bcdde6885) but the git repo is there for the event that the link is no longer available. 
 
 ### [OpenGL programming in C++](https://en.wikipedia.org/wiki/HTTP_404)
 
+
+This module was 3 whole projects in [C++](https://en.wikipedia.org/wiki/C%2B%2B) with [GLFW](https://www.glfw.org/) and [openGL](https://opengl.org/). The first project is [SDL2](https://www.libsdl.org/c) but thats abstracted away by my professor since it is not needed to be known to achieve the marks for the coursework.
+
+
+#### **Project 1** 
+
+Software render a triangle in [SDL2](https://www.libsdl.org/c) using rasterising techniques we learned during the module like [Barycentric coordinates](https://en.wikipedia.org/wiki/Barycentric_coordinate_system) and [antialisasing](https://en.wikipedia.org/wiki/Anti-aliasing) via [multi sampling](https://en.wikipedia.org/wiki/Multisample_anti-aliasing). 
+
+#### **Project 2**
+
+Make an OBJ parser and load an OBJ into memory and render it using [openGL](https://opengl.org/). While this sounds simple on paper, it can be quite complex if you don't know [openGL](https://opengl.org/) and haven't ever made an OBJ parser. 
+
+#### **Project 3**
+
+This was to create a graphics scene of my choosing, it was that open ended which was brilliant. I decided to go for a somewhat PS2 style scene with a heavy influence on the Silent Hill games. This required that I do texturing, lighting, procedural generation, shadows to get the main marks. However there was an R&D section in which I chose to do the following:
+
+
+- [Linear Fog](https://youtu.be/oQksg57qsRA?t=224)
+- [Text rendering](https://learnopengl.com/In-Practice/Text-Rendering)
+- Dynamic light arrays [arrays in GLSL](https://www.khronos.org/opengl/wiki/Data_Type_(GLSL)#Arrays)
+- [Procedural terrain](https://en.wikipedia.org/wiki/Procedural_generation) generation using a [noise map](https://en.wikipedia.org/wiki/Perlin_noise)
+- [Skybox](https://en.wikipedia.org/wiki/Skybox) using a [cubemap](https://en.wikipedia.org/wiki/Cube_mapping) 
+- [FPS cap](https://en.wikipedia.org/wiki/Frame_rate)
+- [Dynamic shadows](https://en.wikipedia.org/wiki/Shadow_mapping)
+- Camera animation track with [Bezier curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve)
+
+
 ### [Making an AI chatbot in Python using only NLTK](https://en.wikipedia.org/wiki/HTTP_404)
+
+This project was to make an AI chatbot in python using principles in natural language processing. My version of this coursework was a playlist manager via a chatbot interface. The chatbot handled things like small talk, trivia and of course, playlist management. The way I achieved this with no external libraries except for [NLTK]() was to use classifiers. In AI based systems, a classifier can be taught, or used outright to classify information using mathematical probability. In my AI chatbot, I used the [Naive Bayes Theorem]() to match specific actions, attributes and sentiments to predefined outputs. For example, sentences like "I would like to make a playlist", "make a playlist" and "want a playlist" would activate the playlist classification" because they hold the closest probability to being a match with the predefined outputs that relate to making a playlist. I also used [Sentiment Analysis]() to determine if the outcome of the AI met the users needs based on their response. This was also used to determine if the user wanted or didn't want to do something. For example, "I don't want to make a playlist" would match the playlist classification but it would not do anything because the sentiment is negative. 
+
 
 ### [Creating phone apps in android](https://en.wikipedia.org/wiki/HTTP_404)
 
+This module had two projects within it. 
 
+- **Project 1**
+    - An MP3 player
+        - Picking songs
+        - Loading songs
+        - Change playback speed
+        - Colour configuration
+        - [Background services](https://developer.android.com/develop/background-work/services)
+        - [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller#)
+        - Appropriate permission management
+- **Project 2**
+    - Geotracking application
+        - Track travelled paths when user specifies to do so
+            - Choose type of path [Walking, running, cycling]
+        - [DAO](https://developer.android.com/training/data-storage/room/accessing-data)
+        - Exposing database so other apps can read information but not write
+        - Set reminders that trigger in geofenced areas
+        - [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller#)
+        - Save data
+        - Statistical analysis of exercises
+        - Inspect geofences
+        - Proper use of android life cycles
+        - Communication between components using serialsiable data structures
+        - Proper use of activities and intents (intents were used primarily to switch between activities and also send serialisable data)
+        - [Background services](https://developer.android.com/develop/background-work/services)
+        - Google maps interfacing to allow for interactable geofencing placements and to visualise paths taken while recording activities
+        - Appropriate permission management
 
 
 ---
@@ -120,7 +183,6 @@ Much like Garys Shop, Valve has added this feature to their steam software makin
 
 
 ## [Job Finder API](https://github.com/Barnold8/JobFinderAPI)
-
 
 ## [Battery Viewer](https://github.com/Barnold8/BatteryViewer)
 
