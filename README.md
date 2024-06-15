@@ -72,7 +72,7 @@ This project took me down the [nand2tetris](https://www.nand2tetris.org/) route 
 
 This project involved writing C code. In university this was one of the first modules we undertook. It was more of a "this is how to program for beginners" than it was anything else. However later down the line we did learn more advanced concepts and of course, because it is C, it included manually managing memory. 
 
-### [Low level Server programming in C with djikstras](https://en.wikipedia.org/wiki/HTTP_404) <div id='CServer'></div>
+### [Low level Server programming in C with djikstras](https://github.com/Barnold8/C-programming-module/tree/main/Server%20in%20C%20with%20Djikstras) <div id='CServer'></div>
 
 This project took everything we knew from C and algorithms and took me through the process of making a lightweight server in C that uses djikstras algorithm to find the shortest path for server communications. It was all a theoretical environment, we didn't actually connect to any server over a network, it was just making a server and client program that ran on the same machine but we made it in C. 
 
