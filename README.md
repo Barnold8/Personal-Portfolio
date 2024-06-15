@@ -13,6 +13,10 @@ This portfolio will showcase my projects I have done throughout my time at The U
 
 This project involved creating a dynamic website using PHP to interface with an SQL database. The website I crafted for this module demonstrates the functionality of a mock movie database, showcasing the ability to store and retrieve movie information. To enhance security and prevent SQL injection attacks, JavaScript is used to sanitize inputs on the frontend. For a demonstration of the website, check out [this video](https://www.youtube.com/watch?v=WZ4swjO1exw).
 
+
+![image info](./Assets/DatabasesWeb.png)
+
+
 ### [ARM assembly](https://en.wikipedia.org/wiki/HTTP_404)
 
 This project involved writing programs in ARM assembly that ran using the [Komodo](https://studentnet.cs.manchester.ac.uk/resources/software/komodo/manual.html) emulator. This included mini projects like FizzBuzz to things like the printf function from [C](https://en.wikipedia.org/wiki/C_(programming_language)). These programs were written in ARM that ran in the Komodo emulator (it's not very good).
@@ -44,9 +48,18 @@ This project taught me about the fundamentals of Java and OOP programming in gen
 
 This project was making a game in SDL2 with a predefined library made by my professor. This library handled SDL2 on an abstract basis hiding a lot of the raw functionality of SDL2 in an attempt to make it easier (it made it harder). My game takes heavy inspiration from [The Binding of Isaac](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/). I had to code the collision detection and AI pathing. Collision was as simple as box to box collisions or circle to circle collisions. All of the rendering techniques had to be done by hand bar the basics boilerplate stuff in SDL2 that was abstracted by my professor. A video for this project can be found [here](https://www.youtube.com/watch?v=VMRoGM5__q8) (technical overview) and [here](https://www.youtube.com/watch?v=x6BJbzGrij0) (game trailer).
 
+
+#### Example Image
+
+> ![alt text](./Assets/OfficeApocalypse.png)
+
 ### [Snake game using JavaFX and making it maintainable](https://en.wikipedia.org/wiki/HTTP_404)
 
 This module focused on making software maintainable and fixing code that was objectively bad and/or incomplete. The ending result is a game of [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) using Java and the [JavaFX](https://openjfx.io/) GUI framework. The original GUI framework for this was [Swing](https://docs.oracle.com/javase/tutorial/uiswing/) but I ported it over to [JavaFX](https://openjfx.io/). To be transparent, the change between frameworks is because swing is deprecated and cannot be maintained any longer. Anything new could conflict with old libraries of swing and security risks are bound to appear making it silly to keep swing as the framework of choice. 
+
+#### Example Images
+> ![alt text](./Assets/AvoidThese.png)
+> ![alt text](./Assets/EatThese.png)
 
 ### [Capital one smart receipt analyser app (group work)](https://en.wikipedia.org/wiki/HTTP_404)
 
@@ -68,6 +81,15 @@ The project achieved a categorization success rate of 85%, utilizing techniques 
 
 At the end of this project we both showcased our application to the University during an Open-Day and also to the members at Capital One in their building in Nottingham. Both parties were delighted with the amount of work achieved and the quality of said work!
 
+#### Example Images
+> <img src="./Assets/Cap1BarChart.png" alt="drawing" width="200"/>
+> <img src="./Assets/Cap1Config.png" alt="drawing" width="200"/>
+> <img src="./Assets/Cap1EditableReceipt.png" alt="drawing" width="200"/>
+> <img src="./Assets/Cap1HomePage.png" alt="drawing" width="200"/>
+> <img src="./Assets/Cap1PieChart.png" alt="drawing" width="200"/>
+> <img src="./Assets/Cap1BudgetAnalysis.png" alt="drawing" width="200"/>
+
+
 ### [Operating system process scheduler using POSIX threads](https://en.wikipedia.org/wiki/HTTP_404)
 
 This module provided an in-depth understanding of operating systems, covering topics such as paging memory, process management, queues, concurrency, disk I/O methodologies, forks, and PIDs. Our project involved simulating a process scheduler in C. The process scheduler was required to queue processes based on priority while simulating I/O operations. This added complexity because I/O operations typically take longer than regular CPU processes. To achieve this, we incorporated process tables, queues, and a disk scheduling algorithm. 
@@ -84,8 +106,13 @@ This project was to take a topic of my choosing and ask questions on said topic.
 
 This project can be seen [here](https://observablehq.com/d/bd50049bcdde6885) but the git repo is there for the event that the link is no longer available. 
 
-### [OpenGL programming in C++](https://en.wikipedia.org/wiki/HTTP_404)
 
+#### Example Images
+> <img src="./Assets/DepressionPercentile.png" alt="drawing" width="500"/>
+> <img src="./Assets/DepressiveCorrelation.png" alt="drawing" width="500"/>
+
+
+### [OpenGL programming in C++](https://en.wikipedia.org/wiki/HTTP_404)
 
 This module was 3 whole projects in [C++](https://en.wikipedia.org/wiki/C%2B%2B) with [GLFW](https://www.glfw.org/) and [openGL](https://opengl.org/). The first project is [SDL2](https://www.libsdl.org/c) but thats abstracted away by my professor since it is not needed to be known to achieve the marks for the coursework.
 
@@ -94,14 +121,20 @@ This module was 3 whole projects in [C++](https://en.wikipedia.org/wiki/C%2B%2B)
 
 Software render a triangle in [SDL2](https://www.libsdl.org/c) using rasterising techniques we learned during the module like [Barycentric coordinates](https://en.wikipedia.org/wiki/Barycentric_coordinate_system) and [antialisasing](https://en.wikipedia.org/wiki/Anti-aliasing) via [multi sampling](https://en.wikipedia.org/wiki/Multisample_anti-aliasing). 
 
+
+#### Example Image
+> <img src="./Assets/openglAssess1.png" alt="drawing" width="500"/>
+
 #### **Project 2**
 
 Make an OBJ parser and load an OBJ into memory and render it using [openGL](https://opengl.org/). While this sounds simple on paper, it can be quite complex if you don't know [openGL](https://opengl.org/) and haven't ever made an OBJ parser. 
 
+#### Example Image
+> <img src="./Assets/openglAssess2.png" alt="drawing" width="500"/>
+
 #### **Project 3**
 
 This was to create a graphics scene of my choosing, it was that open ended which was brilliant. I decided to go for a somewhat PS2 style scene with a heavy influence on the Silent Hill games. This required that I do texturing, lighting, procedural generation, shadows to get the main marks. However there was an R&D section in which I chose to do the following:
-
 
 - [Linear Fog](https://youtu.be/oQksg57qsRA?t=224)
 - [Text rendering](https://learnopengl.com/In-Practice/Text-Rendering)
@@ -112,6 +145,10 @@ This was to create a graphics scene of my choosing, it was that open ended which
 - [Dynamic shadows](https://en.wikipedia.org/wiki/Shadow_mapping)
 - Camera animation track with [Bezier curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve)
 
+
+#### Example Images
+> <img src="./Assets/OpenglCar.png" alt="drawing" width="500"/>
+> <img src="./Assets/OpenglLinFog.png" alt="drawing" width="500"/>
 
 ### [Making an AI chatbot in Python using only NLTK](https://en.wikipedia.org/wiki/HTTP_404)
 
@@ -131,6 +168,12 @@ This module had two projects within it.
         - [Background services](https://developer.android.com/develop/background-work/services)
         - [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller#)
         - Appropriate permission management
+
+
+#### Example Image
+> <img src="./Assets/MP3App.png" alt="drawing" width="200"/>
+<br>
+
 - **Project 2**
     - Geotracking application
         - Track travelled paths when user specifies to do so
@@ -148,6 +191,14 @@ This module had two projects within it.
         - [Background services](https://developer.android.com/develop/background-work/services)
         - Google maps interfacing to allow for interactable geofencing placements and to visualise paths taken while recording activities
         - Appropriate permission management
+
+
+
+#### Example Images
+> <img src="./Assets/GeoTrackerExercisesAndReminders.png" alt="drawing" width="200"/>
+> <img src="./Assets/GeoTrackerReminder.png" alt="drawing" width="240"/>
+> <img src="./Assets/GeoTrackerSettings.png" alt="drawing" width="260"/>
+
 
 
 ---
@@ -179,6 +230,14 @@ This is now deprecated/doesnt work. Twitter/X constantly updates their site to s
 ## [YTS](https://github.com/Barnold8/YTS)
 
 This is a [chrome extension](https://en.wikipedia.org/wiki/Browser_extension) that aims to make playlists on youtube better. While its not fully complete in any form, it still achieves it's main goal. This will take an existing queue of videos that a user has taken and sort them accordingly. Long are the days that you have to sit there sorting videos by hand to get the shortest ones first and the longer ones last, you can now just click a button and be done for the day. This extension intercepts the autoplay feature of youtube queues and starts the next video in it's own queue rather than the predefined one stored on YouTube. The resulting visual of this is your sorted queue as to avoid any confusion. So you have your queue stored locally and showing on the YouTube website!
+
+
+#### Example Images
+> <img src="./Assets/YTSProperQueueSort.png" alt="drawing" width="200"/>
+<br>
+> <img src="./Assets/YTSGeneration.gif" alt="drawing" width="300"/>
+
+
 
 ## [Garys Shop](https://github.com/Barnold8/Garys-Shop)
 
@@ -218,6 +277,9 @@ This project was just a simple linux program I wrote when I was using Arch Linux
 ## [Cain's Voyage](https://github.com/Barnold8/Cains-voyage)
 
 Cain's voyage is the only game mod I have made, and it was a fun adventure! The simple premise is that your health is tied to your coin amount in game. However, due to my lack of overall knowledge about the game, this was already a thing for a character in game and it didnt have as many bugs as my mod had. However, it was a fun experience writing [Lua](https://lua.org/) code to interface with a game and create a mod for it. 
+
+
+> <img src="./Assets/CainsVoyage.jpg" alt="drawing" width="500"/>
 
 ## [Terminar](https://github.com/Barnold8/Terminar)
 
