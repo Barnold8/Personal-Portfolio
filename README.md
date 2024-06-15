@@ -51,7 +51,7 @@ This portfolio will showcase my projects I have done throughout my time at The U
 ## First year
 
 
-### [PHP and SQL Website Project](https://en.wikipedia.org/wiki/HTTP_404) <div id='PHPSQL'></div>
+### [PHP and SQL Website Project](https://github.com/Barnold8/PHP-and-SQL-Website-Project/tree/main) <div id='PHPSQL'></div>
 
 This project involved creating a dynamic website using PHP to interface with an SQL database. The website I crafted for this module demonstrates the functionality of a mock movie database, showcasing the ability to store and retrieve movie information. To enhance security and prevent SQL injection attacks, JavaScript is used to sanitize inputs on the frontend. For a demonstration of the website, check out [this video](https://www.youtube.com/watch?v=WZ4swjO1exw).
 
