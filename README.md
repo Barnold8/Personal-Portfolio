@@ -277,7 +277,7 @@ This is a [chrome extension](https://en.wikipedia.org/wiki/Browser_extension) th
 #### Example Images
 > <img src="./Assets/YTSProperQueueSort.png" alt="drawing" width="200"/>
 <br>
-> <img src="./Assets/YTSGeneration.gif" alt="drawing" width="300"/>
+<img src="./Assets/YTSGeneration.gif" alt="drawing" width="300"/>
 
 
 
