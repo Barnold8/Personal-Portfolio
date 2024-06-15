@@ -64,7 +64,7 @@ My specific contributions included:
 - Initially creating the Docker container and subsequently upgrading it to Docker Compose to support multiple containers.
 - Co-maintaining the Docker configuration with a group member to ensure stability and utility. 
 
-The project achieved a categorization success rate of 85%, utilizing techniques such as [fuzzy matching](), [NLP](), and [Bayes' theorem](). Essentially, we developed an AI that categorizes items with a high success rate, all running on a phone.
+The project achieved a categorization success rate of 85%, utilizing techniques such as [fuzzy matching](https://winpure.com/fuzzy-matching-guide/), [NLP](https://en.wikipedia.org/wiki/Natural_language_processing), and [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem). Essentially, we developed an AI that categorizes items with a high success rate, all running on a phone.
 
 At the end of this project we both showcased our application to the University during an Open-Day and also to the members at Capital One in their building in Nottingham. Both parties were delighted with the amount of work achieved and the quality of said work!
 
@@ -115,7 +115,7 @@ This was to create a graphics scene of my choosing, it was that open ended which
 
 ### [Making an AI chatbot in Python using only NLTK](https://en.wikipedia.org/wiki/HTTP_404)
 
-This project was to make an AI chatbot in python using principles in natural language processing. My version of this coursework was a playlist manager via a chatbot interface. The chatbot handled things like small talk, trivia and of course, playlist management. The way I achieved this with no external libraries except for [NLTK]() was to use classifiers. In AI based systems, a classifier can be taught, or used outright to classify information using mathematical probability. In my AI chatbot, I used the [Naive Bayes Theorem]() to match specific actions, attributes and sentiments to predefined outputs. For example, sentences like "I would like to make a playlist", "make a playlist" and "want a playlist" would activate the playlist classification" because they hold the closest probability to being a match with the predefined outputs that relate to making a playlist. I also used [Sentiment Analysis]() to determine if the outcome of the AI met the users needs based on their response. This was also used to determine if the user wanted or didn't want to do something. For example, "I don't want to make a playlist" would match the playlist classification but it would not do anything because the sentiment is negative. 
+This project was to make an AI chatbot in python using principles in natural language processing. My version of this coursework was a playlist manager via a chatbot interface. The chatbot handled things like small talk, trivia and of course, playlist management. The way I achieved this with no external libraries except for [NLTK]https://www.nltk.org/ was to use classifiers. In AI based systems, a classifier can be taught, or used outright to classify information using mathematical probability. In my AI chatbot, I used the [Naive Bayes Classifer](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) to match specific actions, attributes and sentiments to predefined outputs. For example, sentences like "I would like to make a playlist", "make a playlist" and "want a playlist" would activate the playlist classification" because they hold the closest probability to being a match with the predefined outputs that relate to making a playlist. I also used [Sentiment Analysis](https://en.wikipedia.org/wiki/Sentiment_analysis) to determine if the outcome of the AI met the users needs based on their response. This was also used to determine if the user wanted or didn't want to do something. For example, "I don't want to make a playlist" would match the playlist classification but it would not do anything because the sentiment is negative. 
 
 
 ### [Creating phone apps in android](https://en.wikipedia.org/wiki/HTTP_404)
@@ -162,7 +162,7 @@ This program aims to achieve perfect comfort with ones PC. Imagine it, you're sa
 
 PadPointMouse takes your Xbox controller and turns it into your go to place for all your basic PC needs to keep you tucked in bed or sat on the couch to chill out and enjoy your day.
 
-This is done using the [Windows API]() (to simulate user input) and the [XInput API]() to read controller data streams. The .ini file format was also user to store user configurations. 
+This is done using the [Windows API](https://learn.microsoft.com/en-us/windows/win32/api/winbase/) (to simulate user input) and the [XInput API](https://learn.microsoft.com/en-us/windows/win32/xinput/getting-started-with-xinput) to read controller data streams. The .ini file format was also user to store user configurations. 
 
 
 ## [Pic2SpreadSheet](https://github.com/Barnold8/Pic2SpreadSheet)
@@ -178,15 +178,15 @@ This is now deprecated/doesnt work. Twitter/X constantly updates their site to s
 
 ## [YTS](https://github.com/Barnold8/YTS)
 
-This is a [chrome extension]() that aims to make playlists on youtube better. While its not fully complete in any form, it still achieves it's main goal. This will take an existing queue of videos that a user has taken and sort them accordingly. Long are the days that you have to sit there sorting videos by hand to get the shortest ones first and the longer ones last, you can now just click a button and be done for the day. This extension intercepts the autoplay feature of youtube queues and starts the next video in it's own queue rather than the predefined one stored on YouTube. The resulting visual of this is your sorted queue as to avoid any confusion. So you have your queue stored locally and showing on the YouTube website!
+This is a [chrome extension](https://en.wikipedia.org/wiki/Browser_extension) that aims to make playlists on youtube better. While its not fully complete in any form, it still achieves it's main goal. This will take an existing queue of videos that a user has taken and sort them accordingly. Long are the days that you have to sit there sorting videos by hand to get the shortest ones first and the longer ones last, you can now just click a button and be done for the day. This extension intercepts the autoplay feature of youtube queues and starts the next video in it's own queue rather than the predefined one stored on YouTube. The resulting visual of this is your sorted queue as to avoid any confusion. So you have your queue stored locally and showing on the YouTube website!
 
 ## [Garys Shop](https://github.com/Barnold8/Garys-Shop)
 
 
-This is a [chrome extension]() that takes all user subscribed mods on a steam collections page and adds those mods to a collection. This extension is pretty much useless since steam has implemented this on their application and I assume it is also a feature on their website. 
+This is a [chrome extension](https://en.wikipedia.org/wiki/Browser_extension) that takes all user subscribed mods on a steam collections page and adds those mods to a collection. This extension is pretty much useless since steam has implemented this on their application and I assume it is also a feature on their website. 
 
 ### Note:
-Valve has finally added a feature to collections to add all subscribed items to a collection, yay! This is an alternative to steams system, which seems to do the exact same as Garys shop. This works in the browser as a [chrome extension](). 
+Valve has finally added a feature to collections to add all subscribed items to a collection, yay! This is an alternative to steams system, which seems to do the exact same as Garys shop. This works in the browser as a [chrome extension](https://en.wikipedia.org/wiki/Browser_extension). 
 
 ## [Steam Game Comparitor](https://github.com/Barnold8/SteamGameComparitor)
 
@@ -198,7 +198,7 @@ Much like Garys Shop, Valve has added this feature to their steam software makin
 
 ## [Job Finder API](https://github.com/Barnold8/JobFinderAPI)
 
-This is a [Restful API]() in [FLASK]() that searches the internets top websites for jobs given some information passed to it. The input parameters for this API are "what", "where" and "pages".
+This is a [RESTful API](https://en.wikipedia.org/wiki/REST) in [FLASK](https://flask.palletsprojects.com/en/3.0.x/) that searches the internets top websites for jobs given some information passed to it. The input parameters for this API are "what", "where" and "pages".
 
 - What
     - This parameter focuses on the type of job to search for
@@ -208,16 +208,16 @@ This is a [Restful API]() in [FLASK]() that searches the internets top websites 
     - This parameter dictates the amount of pages the API will scrape off of the top job websites for job roles
 
 
-This [API]() was made to make the job hunting process more streamlined and easy to implement a frontend for. Giving developers the opportunity to provide a mini Job search engine for the masses. 
+This [API](https://en.wikipedia.org/wiki/API) was made to make the job hunting process more streamlined and easy to implement a frontend for. Giving developers the opportunity to provide a mini Job search engine for the masses. 
 
 
 ## [Battery Viewer](https://github.com/Barnold8/BatteryViewer)
 
-This project was just a simple linux program I wrote when I was using Arch Linux on my laptop at University. I hadnt configured a GUI component to show my battery percentage so I just read the file in Linux that stores battery percentage and then just displayed that with some basic [ASCII art]() on the terminal.
+This project was just a simple linux program I wrote when I was using Arch Linux on my laptop at University. I hadnt configured a GUI component to show my battery percentage so I just read the file in Linux that stores battery percentage and then just displayed that with some basic [ASCII art](https://en.wikipedia.org/wiki/ASCII_art) on the terminal.
 
 ## [Cain's Voyage](https://github.com/Barnold8/Cains-voyage)
 
-Cain's voyage is the only game mod I have made, and it was a fun adventure! The simple premise is that your health is tied to your coin amount in game. However, due to my lack of overall knowledge about the game, this was already a thing for a character in game and it didnt have as many bugs as my mod had. However, it was a fun experience writing [Lua]() code to interface with a game and create a mod for it. 
+Cain's voyage is the only game mod I have made, and it was a fun adventure! The simple premise is that your health is tied to your coin amount in game. However, due to my lack of overall knowledge about the game, this was already a thing for a character in game and it didnt have as many bugs as my mod had. However, it was a fun experience writing [Lua](https://lua.org/) code to interface with a game and create a mod for it. 
 
 ## [Terminar](https://github.com/Barnold8/Terminar)
 
