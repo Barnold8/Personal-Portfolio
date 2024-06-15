@@ -76,7 +76,7 @@ This project involved writing C code. In university this was one of the first mo
 
 This project took everything we knew from C and algorithms and took me through the process of making a lightweight server in C that uses djikstras algorithm to find the shortest path for server communications. It was all a theoretical environment, we didn't actually connect to any server over a network, it was just making a server and client program that ran on the same machine but we made it in C. 
 
-### [Haskell basics](https://en.wikipedia.org/wiki/HTTP_404) <div id='Haskell'></div>
+### [Haskell basics](https://github.com/Barnold8/Haskell-Module) <div id='Haskell'></div>
 
 This project taught me the fundamentals of functional programming using haskell. Each file in the repository is from a different coursework I had to do. While I don't remember the exact details of what I had to do in these courseworks, this does showcase my ability to learn new concepts and languages with ease. 
 
