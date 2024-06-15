@@ -80,13 +80,13 @@ This project took everything we knew from C and algorithms and took me through t
 
 This project taught me the fundamentals of functional programming using haskell. Each file in the repository is from a different coursework I had to do. While I don't remember the exact details of what I had to do in these courseworks, this does showcase my ability to learn new concepts and languages with ease. 
 
-### [Learning Java basics and making reversi in Java](https://en.wikipedia.org/wiki/HTTP_404) <div id='ReversiJava'></div>
+### [Learning Java basics and making reversi in Java](https://github.com/Barnold8/Java-basics-and-Reversi) <div id='ReversiJava'></div>
 
 This project taught me about the fundamentals of Java and OOP programming in general. At the end of this module I had to make reversi in Java using the [Swing](https://docs.oracle.com/javase/tutorial/uiswing/) GUI framework. 
 
 ## Second Year <div id='SecondYear'></div>
 
-### [C++ game using SDL2](https://en.wikipedia.org/wiki/HTTP_404) <div id='CPPSDL2'></div>
+### [C++ game using SDL2](https://github.com/Barnold8/CPP-Coursework) <div id='CPPSDL2'></div>
 
 This project was making a game in SDL2 with a predefined library made by my professor. This library handled SDL2 on an abstract basis hiding a lot of the raw functionality of SDL2 in an attempt to make it easier (it made it harder). My game takes heavy inspiration from [The Binding of Isaac](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/). I had to code the collision detection and AI pathing. Collision was as simple as box to box collisions or circle to circle collisions. All of the rendering techniques had to be done by hand bar the basics boilerplate stuff in SDL2 that was abstracted by my professor. A video for this project can be found [here](https://www.youtube.com/watch?v=VMRoGM5__q8) (technical overview) and [here](https://www.youtube.com/watch?v=x6BJbzGrij0) (game trailer).
 
@@ -95,7 +95,7 @@ This project was making a game in SDL2 with a predefined library made by my prof
 
 > ![alt text](./Assets/OfficeApocalypse.png)
 
-### [Snake game using JavaFX and making it maintainable](https://en.wikipedia.org/wiki/HTTP_404) <div id='JFX'></div>
+### [Snake game using JavaFX and making it maintainable](https://github.com/Barnold8/Maintainable-JavaFX-) <div id='JFX'></div>
 
 This module focused on making software maintainable and fixing code that was objectively bad and/or incomplete. The ending result is a game of [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) using Java and the [JavaFX](https://openjfx.io/) GUI framework. The original GUI framework for this was [Swing](https://docs.oracle.com/javase/tutorial/uiswing/) but I ported it over to [JavaFX](https://openjfx.io/). To be transparent, the change between frameworks is because swing is deprecated and cannot be maintained any longer. Anything new could conflict with old libraries of swing and security risks are bound to appear making it silly to keep swing as the framework of choice. 
 
