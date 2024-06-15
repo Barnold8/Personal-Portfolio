@@ -103,7 +103,7 @@ This module focused on making software maintainable and fixing code that was obj
 > ![alt text](./Assets/AvoidThese.png)
 > ![alt text](./Assets/EatThese.png)
 
-### [Capital one smart receipt analyser app (group work)](https://en.wikipedia.org/wiki/HTTP_404) <div id='GRP'></div>
+### [Capital one smart receipt analyser app (group work)](https://github.com/Barnold8/CapitalOne-Smart-Receipt-Analyser) <div id='GRP'></div>
 
 This module centered on group work and included a singular assignment sourced from Capital One. Our group consisted of seven members, although only four were consistently active throughout the majority of the project. The project involved developing a smart receipt analyzer—a phone application that performs OCR on receipts, sends the extracted information to an API, and uses categorization techniques to accurately categorize items. It then performs statistical analysis on the receipts to help users better manage their budgets. The results of the statistical analysis were presented to users through [information visualization](https://en.wikipedia.org/wiki/Data_and_information_visualization) and interactive components.
 
@@ -132,13 +132,13 @@ At the end of this project we both showcased our application to the University d
 > <img src="./Assets/Cap1BudgetAnalysis.png" alt="drawing" width="200"/>
 
 
-### [Operating system process scheduler using POSIX threads](https://en.wikipedia.org/wiki/HTTP_404) <div id='OPPSX'></div>
+### [Operating system process scheduler using POSIX threads](https://github.com/Barnold8/OSC-Finish) <div id='OPPSX'></div>
 
 This module provided an in-depth understanding of operating systems, covering topics such as paging memory, process management, queues, concurrency, disk I/O methodologies, forks, and PIDs. Our project involved simulating a process scheduler in C. The process scheduler was required to queue processes based on priority while simulating I/O operations. This added complexity because I/O operations typically take longer than regular CPU processes. To achieve this, we incorporated process tables, queues, and a disk scheduling algorithm. 
 
 ## Third Year <div id='ThirdYear'></div>
 
-### [Implementing AES in Galois counter mode](https://en.wikipedia.org/wiki/HTTP_404) <div id='AESGCM'></div>
+### [Implementing AES in Galois counter mode](https://github.com/Barnold8/AES-GCM) <div id='AESGCM'></div>
 
 This project focused on implementing [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) in [GCM](https://en.wikipedia.org/wiki/Galois/Counter_Mode). I was given a set of code tests (I think they were Junit?) to pass to ensure the correct implementation of AES in GCM.
 
