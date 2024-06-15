@@ -64,11 +64,11 @@ This project involved creating a dynamic website using PHP to interface with an 
 This project involved writing programs in ARM assembly that ran using the [Komodo](https://studentnet.cs.manchester.ac.uk/resources/software/komodo/manual.html) emulator. This included mini projects like FizzBuzz to things like the printf function from [C](https://en.wikipedia.org/wiki/C_(programming_language)). These programs were written in ARM that ran in the Komodo emulator (it's not very good).
 
 
-### [Programming in HDL](https://en.wikipedia.org/wiki/HTTP_404) <div id='HDL'></div>
+### [Programming in HDL](https://github.com/Barnold8/HDL-Module-) <div id='HDL'></div>
 
 This project took me down the [nand2tetris](https://www.nand2tetris.org/) route of learning HDL code to write everything from [adders](https://en.wikipedia.org/wiki/Adder_(electronics)) to an [ALU](https://en.wikipedia.org/wiki/Arithmetic_logic_unit#:~:text=In%20computing%2C%20an%20arithmetic%20logic,operates%20on%20floating%20point%20numbers.)
 
-### [C programming basics](https://en.wikipedia.org/wiki/HTTP_404) <div id='CBasics'></div> 
+### [C programming basics](https://github.com/Barnold8/C-programming-module) <div id='CBasics'></div> 
 
 This project involved writing C code. In university this was one of the first modules we undertook. It was more of a "this is how to program for beginners" than it was anything else. However later down the line we did learn more advanced concepts and of course, because it is C, it included manually managing memory. 
 
