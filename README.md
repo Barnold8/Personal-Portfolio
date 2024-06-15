@@ -158,25 +158,39 @@ This module had two projects within it.
 
 ## [PadPointMouse](https://github.com/Barnold8/PadPointMouse)
 
+This program aims to achieve perfect comfort with ones PC. Imagine it, you're sat there laying in bed and then youtube says "Are you still watching?". And then you have to get up from that illustrious comfort you had. Or you finished a netflix movie and you dont want to get up to put another one on. Okay, I admit, this is just facilitating laziness but who doesn't want that.
+
+PadPointMouse takes your Xbox controller and turns it into your go to place for all your basic PC needs to keep you tucked in bed or sat on the couch to chill out and enjoy your day.
+
+This is done using the [Windows API]() (to simulate user input) and the [XInput API]() to read controller data streams. The .ini file format was also user to store user configurations. 
+
+
 ## [Pic2SpreadSheet](https://github.com/Barnold8/Pic2SpreadSheet)
+
+This is a very old piece of software, from my own history, where all it does is take an image and convert it to an excel spreadsheet. Each 3 cells in the spreadsheet represent a corresponding R,G,B value. This software is VERY slow. I wrote it before I ever took any algorithms class and I reckon a lot of optimisations could be made. I did this project after seeing [this video](https://www.youtube.com/watch?v=UBX2QQHlQ_I) by [Matt Parker](https://en.wikipedia.org/wiki/Matt_Parker) of [Numberphile](https://www.youtube.com/@numberphile) fame.
 
 ## [TwitX](https://github.com/Barnold8/TwitX)
 
+This is a chrome extension I made to revert parts of "X" back to twitter and also add comfort features to make the experience of modern twitter as nice as possible while keeping it the way it was before the big change. This extension no longer works as intended and you can see why in the ***Note*** section below.
 
 ### Note:
 This is now deprecated/doesnt work. Twitter/X constantly updates their site to stop things like TwitX from fixing their site. I ran out of free time due to University so I lagged behind. However a great repo called [control panel for twitter](https://github.com/insin/control-panel-for-twitter/) exists which does the same and even MORE than what TwitX does, so you should check that out. 
 
 ## [YTS](https://github.com/Barnold8/YTS)
 
+This is a [chrome extension]() that aims to make playlists on youtube better. While its not fully complete in any form, it still achieves it's main goal. This will take an existing queue of videos that a user has taken and sort them accordingly. Long are the days that you have to sit there sorting videos by hand to get the shortest ones first and the longer ones last, you can now just click a button and be done for the day. This extension intercepts the autoplay feature of youtube queues and starts the next video in it's own queue rather than the predefined one stored on YouTube. The resulting visual of this is your sorted queue as to avoid any confusion. So you have your queue stored locally and showing on the YouTube website!
 
 ## [Garys Shop](https://github.com/Barnold8/Garys-Shop)
 
 
+This is a [chrome extension]() that takes all user subscribed mods on a steam collections page and adds those mods to a collection. This extension is pretty much useless since steam has implemented this on their application and I assume it is also a feature on their website. 
+
 ### Note:
-Valve has finally added a feature to collections to add all subscribed items to a collection, yay! This is an alternative to steams system, which seems to do the exact same as Garys shop. This works in the browser as a chrome extension. 
+Valve has finally added a feature to collections to add all subscribed items to a collection, yay! This is an alternative to steams system, which seems to do the exact same as Garys shop. This works in the browser as a [chrome extension](). 
 
 ## [Steam Game Comparitor](https://github.com/Barnold8/SteamGameComparitor)
 
+A common trend for these things I make. The Steam Game Comparitor is a python script that now has no use since Valve has added this feature to their application. This script takes any amount of user IDs and uses the [Steam API](https://steamcommunity.com/dev) to check what games all the users have in common. 
 
 ### Note:
 Much like Garys Shop, Valve has added this feature to their steam software making this software depricated now.  
@@ -184,12 +198,35 @@ Much like Garys Shop, Valve has added this feature to their steam software makin
 
 ## [Job Finder API](https://github.com/Barnold8/JobFinderAPI)
 
+This is a [Restful API]() in [FLASK]() that searches the internets top websites for jobs given some information passed to it. The input parameters for this API are "what", "where" and "pages".
+
+- What
+    - This parameter focuses on the type of job to search for
+- Where 
+    - This parameter focuses on the location that the job should be
+- Pages 
+    - This parameter dictates the amount of pages the API will scrape off of the top job websites for job roles
+
+
+This [API]() was made to make the job hunting process more streamlined and easy to implement a frontend for. Giving developers the opportunity to provide a mini Job search engine for the masses. 
+
+
 ## [Battery Viewer](https://github.com/Barnold8/BatteryViewer)
+
+This project was just a simple linux program I wrote when I was using Arch Linux on my laptop at University. I hadnt configured a GUI component to show my battery percentage so I just read the file in Linux that stores battery percentage and then just displayed that with some basic [ASCII art]() on the terminal.
 
 ## [Cain's Voyage](https://github.com/Barnold8/Cains-voyage)
 
+Cain's voyage is the only game mod I have made, and it was a fun adventure! The simple premise is that your health is tied to your coin amount in game. However, due to my lack of overall knowledge about the game, this was already a thing for a character in game and it didnt have as many bugs as my mod had. However, it was a fun experience writing [Lua]() code to interface with a game and create a mod for it. 
+
 ## [Terminar](https://github.com/Barnold8/Terminar)
+
+Terminar is python script that grabs your University Of Nottingham calendar information for the current day and displays it to the terminal. This worked the last time I used it but if the University changes their scheme to show calendar information, it will no longer work. 
 
 ## [ImageToAscii](https://github.com/Barnold8/ImageToAscii)
 
+This was a simple C++ program I made during a bout of boredom. This does what It says on the tin. It takes an image and generates an ASCII art representation of that image.
+
 ## [CMD_CLOCK](https://github.com/Barnold8/CMD_CLOCK)
+
+CMD_CLOCK was a program I made to fix a similar problem I had when it came to my battery percentage, I hadn't configured it when I had Arch Linux. So what did I do? I just made a program to tell me the time in the terminal.
