@@ -142,7 +142,7 @@ This module provided an in-depth understanding of operating systems, covering to
 
 This project focused on implementing [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) in [GCM](https://en.wikipedia.org/wiki/Galois/Counter_Mode). I was given a set of code tests (I think they were Junit?) to pass to ensure the correct implementation of AES in GCM.
 
-### [Visualising information via the observable javascript framework](https://en.wikipedia.org/wiki/HTTP_404) <div id='VIZ'></div>
+### [Visualising information via the observable javascript framework](https://github.com/Barnold8/FIV-CW) <div id='VIZ'></div>
 
 This project was to take a topic of my choosing and ask questions on said topic. My topic revolved around mental health in England. I ask questions like "How much do finances contribute to depression" and "What parts of England on average are more depressed?". I go over these questions gathering data from various sources, (everything is explained and referenced properly in the coursework), and I then clean the data if needed, ensure its fit for its use and then perform a data visualisation on it to answer the question. I go over how I clean, transform and fit the data for all instances that I use data, which is very often and I also reflect on the results that transpire from the visualisations. 
 
@@ -154,7 +154,7 @@ This project can be seen [here](https://observablehq.com/d/bd50049bcdde6885) but
 > <img src="./Assets/DepressiveCorrelation.png" alt="drawing" width="500"/>
 
 
-### [OpenGL programming in C++](https://en.wikipedia.org/wiki/HTTP_404) <div id='OpenGL'></div>
+### [OpenGL programming in C++](https://github.com/Barnold8/Graphics-CW-3) <div id='OpenGL'></div>
 
 This module was 3 whole projects in [C++](https://en.wikipedia.org/wiki/C%2B%2B) with [GLFW](https://www.glfw.org/) and [openGL](https://opengl.org/). The first project is [SDL2](https://www.libsdl.org/c) but thats abstracted away by my professor since it is not needed to be known to achieve the marks for the coursework.
 
@@ -192,7 +192,7 @@ This was to create a graphics scene of my choosing, it was that open ended which
 > <img src="./Assets/OpenglCar.png" alt="drawing" width="500"/>
 > <img src="./Assets/OpenglLinFog.png" alt="drawing" width="500"/>
 
-### [Making an AI chatbot in Python using only NLTK](https://en.wikipedia.org/wiki/HTTP_404) <div id='ChatBot'></div>
+### [Making an AI chatbot in Python using only NLTK](https://github.com/Barnold8/Chatbot-CW) <div id='ChatBot'></div>
 
 This project was to make an AI chatbot in python using principles in natural language processing. My version of this coursework was a playlist manager via a chatbot interface. The chatbot handled things like small talk, trivia and of course, playlist management. The way I achieved this with no external libraries except for [NLTK]https://www.nltk.org/ was to use classifiers. In AI based systems, a classifier can be taught, or used outright to classify information using mathematical probability. In my AI chatbot, I used the [Naive Bayes Classifer](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) to match specific actions, attributes and sentiments to predefined outputs. For example, sentences like "I would like to make a playlist", "make a playlist" and "want a playlist" would activate the playlist classification" because they hold the closest probability to being a match with the predefined outputs that relate to making a playlist. I also used [Sentiment Analysis](https://en.wikipedia.org/wiki/Sentiment_analysis) to determine if the outcome of the AI met the users needs based on their response. This was also used to determine if the user wanted or didn't want to do something. For example, "I don't want to make a playlist" would match the playlist classification but it would not do anything because the sentiment is negative. 
 
