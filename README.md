@@ -197,11 +197,11 @@ This was to create a graphics scene of my choosing, it was that open ended which
 This project was to make an AI chatbot in python using principles in natural language processing. My version of this coursework was a playlist manager via a chatbot interface. The chatbot handled things like small talk, trivia and of course, playlist management. The way I achieved this with no external libraries except for [NLTK]https://www.nltk.org/ was to use classifiers. In AI based systems, a classifier can be taught, or used outright to classify information using mathematical probability. In my AI chatbot, I used the [Naive Bayes Classifer](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) to match specific actions, attributes and sentiments to predefined outputs. For example, sentences like "I would like to make a playlist", "make a playlist" and "want a playlist" would activate the playlist classification" because they hold the closest probability to being a match with the predefined outputs that relate to making a playlist. I also used [Sentiment Analysis](https://en.wikipedia.org/wiki/Sentiment_analysis) to determine if the outcome of the AI met the users needs based on their response. This was also used to determine if the user wanted or didn't want to do something. For example, "I don't want to make a playlist" would match the playlist classification but it would not do anything because the sentiment is negative. 
 
 
-### [Creating phone apps in android](https://en.wikipedia.org/wiki/HTTP_404) <div id='MobileApp'></div>
+### [Creating phone apps in android](https://github.com/Barnold8/MDP-CW2) <div id='MobileApp'></div>
 
 This module had two projects within it. 
 
-- **Project 1** <div id='App1'></div>
+- [**Project 1**](https://github.com/Barnold8/MDP-CW1) <div id='App1'></div>
     - An MP3 player
         - Picking songs
         - Loading songs
@@ -216,7 +216,7 @@ This module had two projects within it.
 > <img src="./Assets/MP3App.png" alt="drawing" width="200"/>
 <br>
 
-- **Project 2** <div id='App2'></div>
+- [**Project 2**](https://github.com/Barnold8/MDP-CW2) <div id='App2'></div>
     - Geotracking application
         - Track travelled paths when user specifies to do so
             - Choose type of path [Walking, running, cycling]
