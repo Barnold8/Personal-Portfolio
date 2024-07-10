@@ -41,6 +41,9 @@
     10. [Terminar](#Terminar)
     11. [ImageToAscii](#ImageToAscii)
     12. [CMD_CLOCK](#CMDCLOCK)
+4. [Group Projects](#Group)
+   1. [Capital one smart receipt analyser app (group work)](#GRP)
+   2. [LOS-SFML](#LOSSFML)
 
 ## Introduction <div id='Introduction'></div>
 
@@ -334,3 +337,13 @@ This was a simple C++ program I made during a bout of boredom. This does what It
 ## [CMD_CLOCK](https://github.com/Barnold8/CMD_CLOCK) <div id='CMDCLOCK'></div>
 
 CMD_CLOCK was a program I made to fix a similar problem I had when it came to my battery percentage, I hadn't configured it when I had Arch Linux. So what did I do? I just made a program to tell me the time in the terminal.
+
+
+## Group Projects <div id='Group'></div>
+
+## [LOS-SFML](https://github.com/williamsuttondev/LOS-SFML) <div id='LOSSFML'></div>
+
+A high resolution line of sight implementation using SFML.
+
+
+
