@@ -42,6 +42,12 @@
     11. [ImageToAscii](#ImageToAscii)
     12. [CMD_CLOCK](#CMDCLOCK)
     13. [ProcView](#ProcView)
+    14. [TestForge](#TestForge)
+    15. [GovDateAdder](#GovDateAdder)
+    16. [Miasma](#Miasma)
+    17. [DocWeaver](#DocWeaver)
+    18. [RottenFlix](#RottenFlix)
+    19. [DupeFinder](#DupeFinder)
 4. [Group Projects](#Group)
    1. [Capital one smart receipt analyser app (group work)](#GRP)
    2. [LOS-SFML](#LOSSFML)
@@ -344,11 +350,39 @@ CMD_CLOCK was a program I made to fix a similar problem I had when it came to my
 
 ProcView is a windows app that aims to generate realtime time usage statistics on the processes currently running on your Windows PC. 
 
+## [TestForge]((https://github.com/Barnold8/TestForge) <div id='TestForge'></div>
+
+A Go program to automate generating test boilerplate for Go programs
+
+## [GovDateAdder](https://github.com/Barnold8/GovDateAdder) <div id='GovDateAdder'></div>
+
+A chrome extension to add date autofil capabilities to the UK government's universal credit job logging system.
+
+## [Miasma](https://github.com/Barnold8/Miasma) <div id='Miasma'></div>
+
+An <<**UNFINISHED**>> horror game in godot with inspirations from silent hill and indie horror titles
+
+## [DocWeaver](https://github.com/Barnold8/DocWeaver) <div id='DocWeaver'></div>
+
+An AI tool to automatically document code bases or individual files given their contents. This uses chatGPT and requires an API key to use
+
+## [RottenFlix](https://github.com/Barnold8/RottenFlix-) <div id='RottenFlix'></div>
+
+A chrome extension to add rotten tomatoes metrics to your favourite movies and tv shows.
+
+## [DupeFinder](https://github.com/Barnold8/DupeFinder) <div id='DupeFinder'></div>
+
+A C program to find duplicate files given a directory (may add ability to remove dupes and/or rename duplicates)
+
 ## Group Projects <div id='Group'></div>
 
 ## [LOS-SFML](https://github.com/williamsuttondev/LOS-SFML) <div id='LOSSFML'></div>
 
 A high resolution line of sight implementation using SFML.
+
+
+
+
 
 
 
