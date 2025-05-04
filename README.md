@@ -48,6 +48,8 @@
     17. [DocWeaver](#DocWeaver)
     18. [RottenFlix](#RottenFlix)
     19. [DupeFinder](#DupeFinder)
+    20. [NullVoice](#NullVoice)
+    21. [RailAndResume](#RailAndResume)
 4. [Group Projects](#Group)
    1. [Capital one smart receipt analyser app (group work)](#GRP)
    2. [LOS-SFML](#LOSSFML)
@@ -373,6 +375,14 @@ A chrome extension to add rotten tomatoes metrics to your favourite movies and t
 ## [DupeFinder](https://github.com/Barnold8/DupeFinder) <div id='DupeFinder'></div>
 
 A C program to find duplicate files given a directory (may add ability to remove dupes and/or rename duplicates)
+
+## [NullVoice](https://github.com/Barnold8/NullVoice) <div id='DupeFinder'></div>
+
+A simple Blazor WebApp to shout your sweet nothings into the void
+
+## [RailAndResume](https://github.com/Barnold8/DupeFinder](https://github.com/Barnold8/RailAndResume) <div id='DupeFinder'></div>
+
+A Blazor Web app to help you discover jobs you can easily reach by train
 
 ## Group Projects <div id='Group'></div>
 
