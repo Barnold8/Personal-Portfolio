@@ -380,7 +380,7 @@ A C program to find duplicate files given a directory (may add ability to remove
 
 A simple Blazor WebApp to shout your sweet nothings into the void
 
-## [RailAndResume](https://github.com/Barnold8/DupeFinder](https://github.com/Barnold8/RailAndResume) <div id='DupeFinder'></div>
+## [RailAndResume](https://github.com/Barnold8/RailAndResume) <div id='DupeFinder'></div>
 
 A Blazor Web app to help you discover jobs you can easily reach by train
 
